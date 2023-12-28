@@ -1,10 +1,12 @@
+import Home from "./pages/Home/Home";
+import Header from "./shared/components/Header";
+
 function App() {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline text-red-500">
-        Hello world!
-      </h1>
-    </>
+    <div className="content-warpper text-base mx-auto">
+      <Header></Header>
+      <Home></Home>
+    </div>
   );
 }
 
