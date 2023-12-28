@@ -12,6 +12,11 @@ export default {
         "ct-brown": "#a25f4b",
         "ct-gray": "#ececed",
         "ct-gary-40": "rgba(29, 31, 46, 0.4)",
+        "ct-black": {
+          40: "rgba(29, 31, 46, 0.4)",
+          70: "rgba(29, 31, 46, 0.7)",
+          100: "rgba(29, 31, 46, 1)",
+        },
       },
       maxWidth: {
         primary: "940px",

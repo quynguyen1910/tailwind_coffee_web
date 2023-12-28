@@ -8,8 +8,9 @@ const Heading = ({ fadeIn = false, children }) => {
     >
       <label
         className="relative text-xs text-secondary text-center px-5 bg-white
-        ct-through-heading
-      "
+          ct-through-heading
+          sm:text-[11px] sm:font-bold
+          "
       >
         {children}
       </label>
