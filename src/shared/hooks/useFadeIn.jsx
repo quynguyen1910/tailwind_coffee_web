@@ -3,6 +3,7 @@ import { useEffect } from "react";
 const useFadeIn = () => {
   useEffect(() => {
     const nodesFadeIn = document.querySelectorAll(".ct-fade");
+    console.log(nodesFadeIn);
     function fadeInOnScroll() {
       nodesFadeIn.forEach((nodeFadeIn) => {
         const fadeInTop = nodeFadeIn.getBoundingClientRect().top;

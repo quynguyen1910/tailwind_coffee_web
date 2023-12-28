@@ -5,14 +5,14 @@
   @import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap");
   body {
     font-family: "Karla", sans-serif;
-    @apply text-primary;
-    background: #f5f5f5;
+    @apply text-primary leading-normal;
+    background: #5f5555;
   }
 }
 /*---------- ct-custom css------------ */
 /* ct-image */
 .ct-image {
-  @apply block w-full h-full;
+  @apply inline-block w-full h-full;
 }
 /* ct-icon */
 .ct-container {
@@ -37,9 +37,7 @@ img.ct-icon {
 .ct-menu {
   @apply sm:absolute sm:top-full sm:left-0 sm:block sm:w-full sm:text-center sm:-z-10 sm:bg-white md:absolute md:top-full md:left-0 md:block md:w-full md:text-center md:-z-10 md:bg-white;
 }
-.ct-global-banner {
-}
-/* ---------------------------------------- */
+/* ---------------through------------------------- */
 .ct-through-heading {
   @apply before:absolute before:left-1/2 before:top-1/2 before:w-full before:h-px before:-translate-x-1/2 before:-translate-y-1/2 before:scale-x-150 before:bg-ct-gray before:-z-10;
 }
