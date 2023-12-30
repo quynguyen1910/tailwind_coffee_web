@@ -6,7 +6,8 @@
   body {
     font-family: "Karla", sans-serif;
     @apply text-primary leading-normal;
-    background: #5f5555;
+    /* background: #5f5555; */
+    height: 1000vh;
   }
 }
 /*---------- ct-custom css------------ */
@@ -50,6 +51,16 @@ img.ct-icon {
 .ct-fade-in {
   opacity: 1;
   transform: translateY(0);
+}
+/* --------------heading----------------------- */
+.ct-heading {
+  /* display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word; */
+  @apply line-clamp-3 break-words;
 }
 /* ---------------responsive------------ */
 .ct-responsive-pd {
