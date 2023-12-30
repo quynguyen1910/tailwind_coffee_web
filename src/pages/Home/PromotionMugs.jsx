@@ -5,7 +5,11 @@ import { getImage } from "../../shared/ultils";
 const PromotionMugs = ({ fadeIn = false }) => {
   return (
     <>
-      <div className="ct-container text-center mb-32 ct-responsive-pd">
+      <div
+        className="ct-container text-center mb-32 
+      ct-responsive-pd
+      "
+      >
         <Heading fadeIn={fadeIn}>
           BUY 2 MUGS AND GET A COFFEE MAGAZINE FREE
         </Heading>
@@ -74,7 +78,7 @@ const PromotionMugs = ({ fadeIn = false }) => {
               </div>
               <div className="flex-1">
                 <img
-                  className="ct-image"
+                  className="ct-image "
                   src={getImage("promotionMugs3.jpg")}
                   alt="mug"
                 />

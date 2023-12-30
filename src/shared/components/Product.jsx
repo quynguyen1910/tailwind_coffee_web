@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import WhiteButton from "../../pages/Home/WhiteButton";
 // group-hover:opacity-100 group-hover:-translate-y-2
 
 const Product = ({ heightImage = "525px" }) => {
@@ -13,16 +14,7 @@ const Product = ({ heightImage = "525px" }) => {
           style={{ height: `${heightImage}` }}
           className={`block bg-[url('/images/Pink_Premium_Ceramic.jpg')] bg-cover bg-center`}
         >
-          <div className="relative bg-ct-dark h-full w-full bg-opacity-0 group-hover:bg-opacity-15 transition-all duration-500">
-            <div className="absolute bottom-0 p-3 w-full opacity-0 transition-all duration-500 group-hover:opacity-100 group-hover:-translate-y-2 ">
-              <div
-                className={`p-4 text-xs bg-white tracking-[2px] text-ct-dark
-                `}
-              >
-                EXPOLER MUG
-              </div>
-            </div>
-          </div>
+          <WhiteButton>EXPOLER MUG</WhiteButton>
         </a>
       </div>
       <div className="flex flex-col items-center gap-3">
