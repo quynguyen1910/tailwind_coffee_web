@@ -7,7 +7,6 @@
     font-family: "Karla", sans-serif;
     @apply text-primary leading-normal;
     /* background: #5f5555; */
-    height: 1000vh;
   }
 }
 /*---------- ct-custom css------------ */
@@ -53,7 +52,7 @@ img.ct-icon {
   transform: translateY(0);
 }
 /* --------------heading----------------------- */
-.ct-heading {
+.ct-heading-h3 {
   /* display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
@@ -61,6 +60,9 @@ img.ct-icon {
   text-overflow: ellipsis;
   word-break: break-word; */
   @apply line-clamp-3 break-words;
+}
+.ct-heading-h2 {
+  @apply text-5xl leading-normal font-light;
 }
 /* ---------------responsive------------ */
 .ct-responsive-pd {

@@ -9,7 +9,13 @@ const FeaturedMugs = ({ fadeIn = false }) => {
     ct-responsive-pd md:mb-12 sm:mb-12
     "
     >
-      <Heading fadeIn={fadeIn}>FEATURED MUGS</Heading>
+      <div
+        className="text-secondary mb-24
+    md:mb-12 
+    sm:mb-6"
+      >
+        <Heading fadeIn={fadeIn}>FEATURED MUGS</Heading>
+      </div>
       <div
         className={`grid grid-cols-2 gap-5 ${fadeIn ? "ct-fade" : ""}
       md:grid-cols-1 md:gap-12 sm:grid-cols-1 sm:gap-12

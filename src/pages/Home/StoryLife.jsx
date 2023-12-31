@@ -7,7 +7,13 @@ const StoryLife = ({ fadeIn = false }) => {
   return (
     <>
       <div className="ct-container text-center">
-        <Heading fadeIn={fadeIn}>BEHIND THE MUGS, LIFESTYLE STORIES</Heading>
+        <div
+          className="text-secondary mb-24
+    md:mb-12 
+    sm:mb-6"
+        >
+          <Heading fadeIn={fadeIn}>BEHIND THE MUGS, LIFESTYLE STORIES</Heading>
+        </div>
         <div
           className={`grid grid-cols-3 gap-5 ${fadeIn ? "ct-fade" : ""}
         ct-responsive-pd
@@ -19,7 +25,7 @@ const StoryLife = ({ fadeIn = false }) => {
               <WhiteButton>read the full story</WhiteButton>
             </a>
             <div className="flex-1 flex flex-col gap-3 text-start items-start">
-              <h3 className="text-xl text-ct-black-80 hover:text-ct-brown cursor-pointer ct-heading">
+              <h3 className="text-xl text-ct-black-80 hover:text-ct-brown cursor-pointer ct-heading-h3">
                 <a href="#">
                   Health Check: why do I get a headache when I haven’t had my
                   coffee?
@@ -39,7 +45,7 @@ const StoryLife = ({ fadeIn = false }) => {
               <WhiteButton>read the full story</WhiteButton>
             </div>
             <div className="flex-1 flex flex-col gap-3 text-start items-start">
-              <h3 className="text-xl text-ct-black-80 hover:text-ct-brown cursor-pointer ct-heading">
+              <h3 className="text-xl text-ct-black-80 hover:text-ct-brown cursor-pointer ct-heading-h3">
                 How long does a cup of coffee keep you awake?
               </h3>
               <p className="mt-auto text-ct-black-70">
@@ -56,7 +62,7 @@ const StoryLife = ({ fadeIn = false }) => {
               <WhiteButton>read the full story</WhiteButton>
             </div>
             <div className="flex-1 flex flex-col gap-3 text-start items-start">
-              <h3 className="text-xl text-ct-black-80 hover:text-ct-brown cursor-pointer ct-heading">
+              <h3 className="text-xl text-ct-black-80 hover:text-ct-brown cursor-pointer ct-heading-h3">
                 Recent research suggests that heavy coffee drinkers may reap
                 health benefits.
               </h3>
