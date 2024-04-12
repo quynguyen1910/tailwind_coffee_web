@@ -15,9 +15,7 @@ const GlobalBanner = () => {
               <span className="text-xs opacity-80 leading-normal font-bold tracking-[2px] uppercase">
                 BEST PLACE TO BUY DESIGN
               </span>
-              <h2 className="text-5xl leading-normal font-light">
-                Coffee Mugs
-              </h2>
+              <h2 className="ct-heading-h2">Coffee Mugs</h2>
               <span className="text-lg leading-normal">
                 The most versatile furniture system ever created. Designed to
                 fit your life, made to move and grow.

@@ -5,7 +5,13 @@ import Product from "../../shared/components/Product";
 const MoreProducts = ({ fadeIn = false }) => {
   return (
     <div className="ct-container text-center mb-24">
-      <Heading fadeIn={fadeIn}>MORE PRODUCTS</Heading>
+      <div
+        className="text-secondary mb-24
+    md:mb-12 
+    sm:mb-6"
+      >
+        <Heading fadeIn={fadeIn}>MORE PRODUCTS</Heading>
+      </div>
       <div
         className={`grid lg:grid-cols-3 gap-5 mb-12 ${fadeIn ? "ct-fade" : ""}
         ct-responsive-pd md:grid-cols-2 sm:grid-cols-1 md:gap-12 sm:gap-12

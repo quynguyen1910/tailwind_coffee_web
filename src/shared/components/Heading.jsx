@@ -2,14 +2,12 @@
 const Heading = ({ fadeIn = false, children }) => {
   return (
     <div
-      className={`mb-24 ${fadeIn ? "ct-fade" : ""} overflow-hidden
+      className={` ${fadeIn ? "ct-fade" : ""} overflow-hidden
     ct-responsive-pd
-    md:mb-12 
-    sm:mb-6
     `}
     >
       <label
-        className="block mx-auto relative text-xs text-secondary text-center bg-white px-5
+        className="block mx-auto relative text-xs text-inherit text-center bg-inherit px-5
         lg:max-w-fit
         md:max-w-44 md:px-3
         sm:max-w-44 sm:px-3

@@ -10,9 +10,15 @@ const PromotionMugs = ({ fadeIn = false }) => {
       ct-responsive-pd
       "
       >
-        <Heading fadeIn={fadeIn}>
-          BUY 2 MUGS AND GET A COFFEE MAGAZINE FREE
-        </Heading>
+        <div
+          className="text-secondary mb-24
+    md:mb-12 
+    sm:mb-6"
+        >
+          <Heading fadeIn={fadeIn}>
+            BUY 2 MUGS AND GET A COFFEE MAGAZINE FREE
+          </Heading>
+        </div>
         <div
           className={`flex gap-5 ${fadeIn ? "ct-fade" : ""}
         md:flex-col-reverse md:gap-10
